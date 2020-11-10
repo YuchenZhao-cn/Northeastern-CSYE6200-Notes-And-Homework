@@ -1,0 +1,6 @@
+Rocket[Name: Yuchen No.0, Manufacturer: Yuchen.Zhao, Weight: 141/t, FuelWeight: 1900/t, PayloadWeight: 52/t, TotalWeight: 2093/t, EngineThrust: 33000000/N Stages: 2 TotalWeight: 2093]
+Rocket[Name: Yuchen No.1, Manufacturer: Yuchen.Zhao, Weight: 131/t, FuelWeight: 2000/t, PayloadWeight: 50/t, TotalWeight: 2181/t, EngineThrust:       10/N Stages: 3 TotalWeight: 2181]
+Rocket[Name: Yuchen No.2, Manufacturer: Yuchen.Zhao, Weight: 121/t, FuelWeight: 2100/t, PayloadWeight: 48/t, TotalWeight: 2269/t, EngineThrust:  5000000/N Stages: 4 TotalWeight: 2269]
+Rocket[Name: Yuchen No.3, Manufacturer: Yuchen.Zhao, Weight: 111/t, FuelWeight: 2200/t, PayloadWeight: 46/t, TotalWeight: 2357/t, EngineThrust: 36000000/N Stages: 5 TotalWeight: 2357]
+Rocket[Name: Yuchen No.4, Manufacturer: Yuchen.Zhao, Weight: 101/t, FuelWeight: 2300/t, PayloadWeight: 44/t, TotalWeight: 2445/t, EngineThrust: 37000000/N Stages: 6 TotalWeight: 2445]
+Rocket[Name: Yuchen No.5, Manufacturer: Yuchen.Zhao, Weight:  91/t, FuelWeight: 2400/t, PayloadWeight: 42/t, TotalWeight: 2533/t, EngineThrust: 38000000/N Stages: 7 TotalWeight: 2533]

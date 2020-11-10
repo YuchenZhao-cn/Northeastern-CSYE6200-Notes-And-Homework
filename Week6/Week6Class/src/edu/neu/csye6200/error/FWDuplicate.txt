@@ -1,0 +1,44 @@
+ p a c k a g e   e d u . n e u . c s y e 6 2 0 0 . e r r o r ;  
+  
+ i m p o r t   j a v a . i o . I O E x c e p t i o n ;  
+  
+ p u b l i c   c l a s s   T e s t E r r o r H a n d l e r   {  
+  
+ 	 p u b l i c   T e s t E r r o r H a n d l e r ( )   {  
+ 	 	  
+ 	 }  
+ 	  
+ 	 p u b l i c   v o i d   r u n ( )   { / / c o n s t r u c t o r  
+ 	 	 t e s t C a t c h ( ) ;  
+ 	 }  
+ 	  
+ 	 p u b l i c   v o i d   t e s t C a t c h ( )   { / / C a t c h   p r o b l e m s  
+ 	 	  
+ 	 	 t r y   {  
+ 	 	 	 t e s t E r r o r ( 6 ) ; / / T h i s   m e t h o d   c a u s e s   p r o b l e m s  
+ 	 	 }   c a t c h   ( I O E x c e p t i o n   e )   {  
+ 	 	 	 S y s t e m . o u t . p r i n t l n ( " I O   E r r o r   c a u g h t " ) ;  
+ 	 	 	 e . p r i n t S t a c k T r a c e ( ) ;  
+ 	 	 }   c a t c h   ( I l l e g a l A r g u m e n t E x c e p t i o n   e )   {  
+ 	 	 	 S y s t e m . o u t . p r i n t l n ( " I A   E r r o r   c a u g h t " ) ;  
+ 	 	 	 e . p r i n t S t a c k T r a c e ( ) ;  
+ 	 	 }   f i n a l l y   {  
+ 	 	 	 S y s t e m . o u t . p r i n t l n ( " F i n a l   c l e a n u p " ) ;  
+ 	 	 }  
+ 	 	  
+ 	 }  
+ 	  
+ 	 p u b l i c   v o i d   t e s t E r r o r ( i n t   v a l u e )   t h r o w s   I O E x c e p t i o n   {  
+ 	 	 i f   ( v a l u e   >   5 )   {  
+ 	 	         t h r o w   n e w   I O E x c e p t i o n ( " T h i s   i s   a n   I O   e r r o r " ) ;  
+ 	 	 }  
+ 	 	 i f   ( v a l u e   <   2 )  
+ 	 	 	 t h r o w   n e w   I l l e g a l A r g u m e n t E x c e p t i o n ( " T h i s   i s   a n   I A   e r r o r ) " ) ;  
+ 	 }  
+ 	  
+ 	 p u b l i c   s t a t i c   v o i d   m a i n ( S t r i n g [ ]   a r g s )   {  
+ 	 	 T e s t E r r o r H a n d l e r   t e h   =   n e w   T e s t E r r o r H a n d l e r ( ) ;  
+ 	 	 t e h . r u n ( ) ;  
+ 	 }  
+  
+ }  

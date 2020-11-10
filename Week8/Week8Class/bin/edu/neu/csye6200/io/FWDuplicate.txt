@@ -1,0 +1,40 @@
+ p a c k a g e   e d u . n e u . c s y e 6 2 0 0 . i o ;  
+  
+ i m p o r t   j a v a . i o . F i l e N o t F o u n d E x c e p t i o n ;  
+ i m p o r t   j a v a . i o . F i l e R e a d e r ;  
+ i m p o r t   j a v a . i o . F i l e W r i t e r ;  
+ i m p o r t   j a v a . i o . I O E x c e p t i o n ;  
+  
+ p u b l i c   c l a s s   F i l e W r i t e r T e s t   {  
+  
+ 	 p u b l i c   F i l e W r i t e r T e s t ( )   {  
+ 	 }  
+ 	  
+ 	 p u b l i c   v o i d   r u n ( )   {  
+ 	 	 S t r i n g   b a s e   =   " s r c / e d u / n e u / c s y e 6 2 0 0 / i o / " ;  
+ 	 	 t r y   {  
+ 	 	 	 F i l e R e a d e r   r e a d e r   =   n e w   F i l e R e a d e r ( b a s e   +   " F i l e W r i t e r T e s t . j a v a " ) ;  
+ 	 	 	 F i l e W r i t e r   w r i t e r   =   n e w   F i l e W r i t e r ( b a s e   +   " F W D u p l i c a t e . t x t " ) ;  
+ 	 	 	  
+ 	 	 	 i n t   i n V a l   =   r e a d e r . r e a d ( ) ;  
+ 	 	 	 w h i l e ( i n V a l   > =   0 )   {  
+ 	 	 	 	 S y s t e m . o u t . p r i n t ( "   " ) ;  
+ 	 	 	 	 S y s t e m . o u t . p r i n t (   ( c h a r )   i n V a l ) ;  
+ 	 	 	 	 w r i t e r . w r i t e ( "   "   +   ( c h a r )   i n V a l ) ;  
+ 	 	 	 	 i n V a l   =   r e a d e r . r e a d ( ) ;  
+ 	 	 	 }  
+ 	 	 	 r e a d e r . c l o s e ( ) ;  
+ 	 	 	 w r i t e r . c l o s e ( ) ;  
+ 	 	 } c a t c h   ( F i l e N o t F o u n d E x c e p t i o n   e )   {  
+ 	 	 	 e . p r i n t S t a c k T r a c e ( ) ;  
+ 	 	 } c a t c h   ( I O E x c e p t i o n   e )   {  
+ 	 	 	 e . p r i n t S t a c k T r a c e ( ) ;  
+ 	 	 }  
+ 	 }  
+ 	  
+ 	 p u b l i c   s t a t i c   v o i d   m a i n ( S t r i n g [ ]   a r g s )   {  
+ 	 	 F i l e W r i t e r T e s t   d e m o   =   n e w   F i l e W r i t e r T e s t ( ) ;  
+ 	 	 d e m o . r u n ( ) ;  
+ 	 }  
+  
+ }  

@@ -1,0 +1,1 @@
+Rocket[Name=Yuchen No.0, Manufacturer=Yuchen.Zhao, Weight=141/t, FuelWeight=1900/t, PayloadWeight=52/t, TotalWeight=2093/t, EngineThrust=33000000/N Stages: 2 TotalWeight: 2093]
